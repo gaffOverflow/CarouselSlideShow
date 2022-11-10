@@ -1,0 +1,88 @@
+body,
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.slide1 {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/375/986/399/despicable-me-movies-cgi-minions-wallpaper-preview.jpg");
+}
+.slide2 {
+  background-image: url("https://wallpaperaccess.com/full/27835.jpg");
+}
+.slide3 {
+  background-image: url("https://wallpaperaccess.com/full/192341.jpg");
+}
+.slide4 {
+  background-image: url("https://i.pinimg.com/originals/ee/c4/12/eec412c55230f7edb79539fa48d28e02.jpg");
+}
+.slide5 {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/707/462/484/minion-desktop-wallpaper-preview.jpg");
+}
+.slide6 {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/386/613/209/despicable-me-minions-movies-wallpaper-preview.jpg");
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.slide-content span {
+  font-size: 5rem;
+  color: #bbb;
+  background: rgba(0, 0, 0, .3);
+  padding: .2em;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  font-size: 3em;
+  color: #ddd;
+}
+
+.arrow:hover{
+  color: #fff;
+  font-weight: 700;
+}
+
+#arrow-left {
+  left: 0;
+  margin-left: 30px;
+  display:none;
+}
+
+#arrow-right {
+  right: 0;
+  margin-right: 30px;
+  display:none;
+}
+Footer
+
